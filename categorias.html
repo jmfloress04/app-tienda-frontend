@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explora nuestro catálogo de equipamiento y accesorios para baristas: cafeteras, molinos, balanzas y más.">
+    <title>Categorías | Tienda del Barista</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌿</text></svg>">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light-subtle text-dark d-flex flex-column min-vh-100">
+
+    <a href="#contenido-principal" class="visually-hidden-focusable btn btn-success position-absolute top-0 start-0 m-3 z-3">
+        Saltar al contenido principal
+    </a>
+
+    <!-- BARRA DE NAVEGACIÓN -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-success-subtle shadow-sm sticky-top" aria-label="Navegación principal">
+            <div class="container">
+                <a class="navbar-brand fw-bold text-success-emphasis" href="index.html">🌿 Tienda del Barista</a>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavegacion" aria-controls="menuNavegacion" aria-expanded="false" aria-label="Alternar menú de navegación">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menuNavegacion">
+                    <ul class="navbar-nav ms-auto fw-semibold">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link active text-success" aria-current="page" href="categorias.html">Categorías</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main id="contenido-principal" class="container py-5 flex-grow-1">
+        <h1 class="display-6 fw-bold text-success-emphasis text-center mb-5">Nuestro Catálogo</h1>
+
+        <!-- CATEGORÍA 1 -->
+        <section class="mb-5" aria-labelledby="cat-filtrados">
+            <h2 id="cat-filtrados" class="h3 border-bottom border-success pb-2 mb-4">Métodos de Filtrado</h2>
+            <ul class="row g-4 list-unstyled">
+                
+                <!-- Producto 1 -->
+                <li class="col-12 col-md-4">
+                    <article class="card h-100 shadow-sm border-0">
+                        <div class="ratio ratio-4x3">
+                            <img src="https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=600&q=80" class="card-img-top object-fit-cover" alt="Cafetera Chemex con filtro">
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="h5 card-title">Cafetera Chemex</h3>
+                            <p class="card-text text-secondary small flex-grow-1">Vidrio de borosilicato, incluye collarín de madera.</p>
+                            
+                            <!-- Contenedor de Botones -->
+                            <div class="d-flex gap-2 mt-auto pt-3 border-top">
+                                <button type="button" class="btn btn-success w-50" aria-label="Comprar Cafetera Chemex">Comprar</button>
+                                <button type="button" class="btn btn-outline-success w-50" data-bs-toggle="modal" data-bs-target="#modalProd1" aria-label="Ver detalles de Cafetera Chemex">Detalle</button>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+
+                <!-- Producto 2 -->
+                <li class="col-12 col-md-4">
+                    <article class="card h-100 shadow-sm border-0">
+                        <div class="ratio ratio-4x3">
+                            <img src="https://images.unsplash.com/photo-1498804103079-a6351b050096?auto=format&fit=crop&w=600&q=80" class="card-img-top object-fit-cover" alt="Cono V60 de cerámica blanca">
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="h5 card-title">Hario V60 Cerámica</h3>
+                            <p class="card-text text-secondary small flex-grow-1">Retiene el calor para una extracción pareja y limpia.</p>
+                            
+                            <div class="d-flex gap-2 mt-auto pt-3 border-top">
+                                <button type="button" class="btn btn-success w-50" aria-label="Comprar Hario V60">Comprar</button>
+                                <button type="button" class="btn btn-outline-success w-50" data-bs-toggle="modal" data-bs-target="#modalProd2" aria-label="Ver detalles de Hario V60">Detalle</button>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+
+                <!-- Producto 3 -->
+                <li class="col-12 col-md-4">
+                    <article class="card h-100 shadow-sm border-0">
+                        <div class="ratio ratio-4x3">
+                            <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=600&q=80" class="card-img-top object-fit-cover" alt="Prensa francesa de vidrio">
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="h5 card-title">Prensa Francesa</h3>
+                            <p class="card-text text-secondary small flex-grow-1">Ideal para un café con mucho cuerpo y aceites naturales.</p>
+                            
+                            <div class="d-flex gap-2 mt-auto pt-3 border-top">
+                                <button type="button" class="btn btn-success w-50" aria-label="Comprar Prensa Francesa">Comprar</button>
+                                <button type="button" class="btn btn-outline-success w-50" data-bs-toggle="modal" data-bs-target="#modalProd3" aria-label="Ver detalles de Prensa Francesa">Detalle</button>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </section>
+
+        <!-- CATEGORÍA 2 -->
+        <section aria-labelledby="cat-accesorios">
+            <h2 id="cat-accesorios" class="h3 border-bottom border-success pb-2 mb-4">Accesorios</h2>
+            <ul class="row g-4 list-unstyled">
+                
+                <!-- Producto 4 -->
+                <li class="col-12 col-md-4">
+                    <article class="card h-100 shadow-sm border-0">
+                        <div class="ratio ratio-4x3">
+                            <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=600&q=80" class="card-img-top object-fit-cover" alt="Molino de café manual">
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="h5 card-title">Molino Manual</h3>
+                            <p class="card-text text-secondary small flex-grow-1">Muelas de acero inoxidable para una molienda precisa.</p>
+                            
+                            <div class="d-flex gap-2 mt-auto pt-3 border-top">
+                                <button type="button" class="btn btn-success w-50" aria-label="Comprar Molino Manual">Comprar</button>
+                                <button type="button" class="btn btn-outline-success w-50" data-bs-toggle="modal" data-bs-target="#modalProd4" aria-label="Ver detalles de Molino Manual">Detalle</button>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+
+                <!-- Producto 5 -->
+                <li class="col-12 col-md-4">
+                    <article class="card h-100 shadow-sm border-0">
+                        <div class="ratio ratio-4x3">
+                            <img src="https://images.unsplash.com/photo-1581007871115-f14bc016e0a4?auto=format&fit=crop&w=600&q=80" class="card-img-top object-fit-cover" alt="Balanza de precisión para café">
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="h5 card-title">Balanza con Timer</h3>
+                            <p class="card-text text-secondary small flex-grow-1">Controla el tiempo y el peso en tus extracciones.</p>
+                            
+                            <div class="d-flex gap-2 mt-auto pt-3 border-top">
+                                <button type="button" class="btn btn-success w-50" aria-label="Comprar Balanza">Comprar</button>
+                                <button type="button" class="btn btn-outline-success w-50" data-bs-toggle="modal" data-bs-target="#modalProd5" aria-label="Ver detalles de Balanza">Detalle</button>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+
+                <!-- Producto 6 -->
+                <li class="col-12 col-md-4">
+                    <article class="card h-100 shadow-sm border-0">
+                        <div class="ratio ratio-4x3">
+                            <img src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=600&q=80" class="card-img-top object-fit-cover" alt="Pava cuello de cisne">
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="h5 card-title">Pava Cuello de Cisne</h3>
+                            <p class="card-text text-secondary small flex-grow-1">Flujo de agua constante y controlado para métodos de goteo.</p>
+                            
+                            <div class="d-flex gap-2 mt-auto pt-3 border-top">
+                                <button type="button" class="btn btn-success w-50" aria-label="Comprar Pava Cuello de Cisne">Comprar</button>
+                                <button type="button" class="btn btn-outline-success w-50" data-bs-toggle="modal" data-bs-target="#modalProd6" aria-label="Ver detalles de Pava">Detalle</button>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="bg-success text-light py-4 mt-auto">
+        <div class="container text-center">
+            <p class="mb-1 fw-semibold">Tienda del Barista &copy; 2026</p>
+        </div>
+    </footer>
+
+    <!-- ==========================================
+         ZONA DE MODALES (Uno para cada producto)
+         ========================================== -->
+
+    <!-- Modal Prod 1 -->
+    <div class="modal fade" id="modalProd1" tabindex="-1" aria-labelledby="labelProd1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-0">
+                <div class="modal-header bg-success text-white">
+                    <h5 class="modal-title" id="labelProd1">Cafetera Chemex 6 Tazas</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar ventana"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=600&q=80" class="img-fluid rounded mb-3" alt="Chemex">
+                    <p>Diseñada en 1941, esta cafetera extrae un café limpio, dulce y sin amargor. Capacidad: 900ml.</p>
+                    <h4 class="text-success-emphasis fw-bold">$45.000</h4>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-success">Añadir al carrito</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Prod 2 -->
+    <div class="modal fade" id="modalProd2" tabindex="-1" aria-labelledby="labelProd2" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-0">
+                <div class="modal-header bg-success text-white">
+                    <h5 class="modal-title" id="labelProd2">Hario V60 Cerámica</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar ventana"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://images.unsplash.com/photo-1498804103079-a6351b050096?auto=format&fit=crop&w=600&q=80" class="img-fluid rounded mb-3" alt="Hario V60">
+                    <p>El clásico método japonés. Su forma cónica en ángulo de 60 grados asegura una extracción perfecta.</p>
+                    <h4 class="text-success-emphasis fw-bold">$22.500</h4>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-success">Añadir al carrito</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Prod 3 -->
+    <div class="modal fade" id="modalProd3" tabindex="-1" aria-labelledby="labelProd3" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-0">
+                <div class="modal-header bg-success text-white">
+                    <h5 class="modal-title" id="labelProd3">Prensa Francesa</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar ventana"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=600&q=80" class="img-fluid rounded mb-3" alt="Prensa Francesa">
+                    <p>Método de inmersión total. Conserva los aceites esenciales del café para una bebida con gran cuerpo.</p>
+                    <h4 class="text-success-emphasis fw-bold">$28.000</h4>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-success">Añadir al carrito</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Prod 4 -->
+    <div class="modal fade" id="modalProd4" tabindex="-1" aria-labelledby="labelProd4" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-0">
+                <div class="modal-header bg-success text-white">
+                    <h5 class="modal-title" id="labelProd4">Molino Manual</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar ventana"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=600&q=80" class="img-fluid rounded mb-3" alt="Molino Manual">
+                    <p>Construido en aluminio aeroespacial con muelas cónicas de acero inoxidable. Ajuste micrométrico.</p>
+                    <h4 class="text-success-emphasis fw-bold">$65.000</h4>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-success">Añadir al carrito</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Prod 5 -->
+    <div class="modal fade" id="modalProd5" tabindex="-1" aria-labelledby="labelProd5" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-0">
+                <div class="modal-header bg-success text-white">
+                    <h5 class="modal-title" id="labelProd5">Balanza con Timer</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar ventana"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://images.unsplash.com/photo-1581007871115-f14bc016e0a4?auto=format&fit=crop&w=600&q=80" class="img-fluid rounded mb-3" alt="Balanza de precisión">
+                    <p>Precisión de 0.1 gramos y temporizador integrado. Esencial para replicar recetas perfectas.</p>
+                    <h4 class="text-success-emphasis fw-bold">$35.000</h4>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-success">Añadir al carrito</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Prod 6 -->
+    <div class="modal fade" id="modalProd6" tabindex="-1" aria-labelledby="labelProd6" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-0">
+                <div class="modal-header bg-success text-white">
+                    <h5 class="modal-title" id="labelProd6">Pava Cuello de Cisne</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar ventana"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=600&q=80" class="img-fluid rounded mb-3" alt="Pava Cuello de Cisne">
+                    <p>Acero inoxidable con acabado negro mate. Permite un control absoluto sobre el caudal de agua.</p>
+                    <h4 class="text-success-emphasis fw-bold">$41.000</h4>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-success">Añadir al carrito</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
